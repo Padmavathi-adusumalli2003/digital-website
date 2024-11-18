@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./digitalclock.js" defer></script>
+</head>
+<style>
+    *{
+        margin:0px;
+        padding: 0px;
+    }
+    body{
+        background-image: linear-gradient(75deg,green,orange,blue);
+        height: 100vh;
+    }
+    #container{
+        width:25%;
+        height:300px;
+        background-color: beige;
+        border-radius: 10px;
+        /* display: flex; */
+        display: block;
+    
+        border: 10px solid black;
+        box-shadow: 5px 5px 5px red,-5px -5px 5px blueviolet;
+        transform: translate(500px,180px);
+        line-height: 100px;
+
+    }
+
+</style>
+<body>
+    <div id="container">
+        <h1 id="hour"></h1>
+        <h1 id="date"></h1>
+        <h1 id="day"></h1>
+    </div>
+</body>
+</html>
